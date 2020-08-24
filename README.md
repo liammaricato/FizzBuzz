@@ -1,21 +1,21 @@
 # FizzBuzz
 
-**TODO: Add description**
+🔮 A short Elixir project, following a tutorial from a [Udemy course](https://www.udemy.com/course/elixir-e-phoenix-do-zero). Actually my first ever Elixir project!
 
-## Installation
+## Features
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizz_buzz` to your list of dependencies in `mix.exs`:
+- Reads a text file to get a list of integers
+- Converts these numbers using the following criteria:
+  - When divisible by 3, the number gets converted to "Fizz"
+  - When divisible by 5, the number gets converted to "Buzz"
+  - When divisible by 3 and by 5, the number gets converted to "FizzBuzz"
+- Returns a list with the converted numbers
+- Unit test coverage for the only public method
 
-```elixir
-def deps do
-  [
-    {:fizz_buzz, "~> 0.1.0"}
-  ]
-end
-```
+## Considerations
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/fizz_buzz](https://hexdocs.pm/fizz_buzz).
+Really a great first project, got to use some fundamental stuff in functional programming, like **pattern matching**, and also important things about Elixir and it's good practices in general, like **pipe operator** and **guards**.
 
+This is basically my introduction to functional programming, I've tried *really basic* Haskell and liked it, but since Elixir's syntax is so close to Ruby's, I'm starting to really love this and hope this is the start of something big.
+
+🤞 Wish me luck from now on!
